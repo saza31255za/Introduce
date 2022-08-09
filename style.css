@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* behavior: smooth; */
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.navBar {
+    width: 100%;
+    height: 4rem;
+    background-color: #ffe496;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    transition: .6s;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: black;
+}
+
+.navBar a:hover{
+    letter-spacing: 0.5rem;
+}
+
+/* ------------------------------------------------ */
+
+.container {
+    width: 100%;
+    height: calc(100vh - 6rem);
+    background-color: #e7d2b3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    width: 80vh;
+    height: 25vh;
+}
+
+.box2 {
+    width: 50vh;
+    height: 50vh;
+}
+
+.box1 p{
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 3rem 1rem 1rem #000;
+}
+
+.box1 p::first-line{
+    font-size: 5rem;
+}
+
+.box2 a{
+    width: 100%;
+    height: 100%;
+}
+
+.box2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem;
+    box-shadow: 3rem 1rem 1rem #0004;
+    z-index: 2;
+}
+
+/* ------------page2----------- */
+
+.container2 {
+    width: 100%;
+    height: calc(100vh - 6rem);
+    background-color: #e7d2b3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box3 h1{
+    font-size: 4rem;
+}
+
+.box3 h2{
+    font-size: 3rem;
+}
+
+.box3 h3{
+    font-size: 2rem;
+}
+
+.box3 p{
+    font-size: 1.5rem;
+}
+
+.box4 {
+    width: 50vh;
+    height: 50vh;
+}
+
+.box4 a{
+    width: 100%;
+    height: 100%;
+}
+
+.box4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem;
+    z-index: 2;
+}
+
+/* ------------page3----------- */
+
+.container3{
+    width: 100%;
+    height: 90vh;
+    background-color: #e7d2b3;
+    display: flex;
+}
+
+/* ------------page4----------- */
+
+.cont{
+    width: 80vh;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.cont p{
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.cont a{
+    width: 10rem;
+    height: 4rem;
+    justify-content: center;
+}
+
+.cont a img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.cont a p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+/* ------------------------------------------------ */
+.footer {
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    bottom: 0;
+    background-color: #6c6559;
+    color: white;
+}
+
+.footer p {
+    font-size: large;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
